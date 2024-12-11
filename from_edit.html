@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pembelian produk di toko my queen</title>
+</head>
+<body>
+    <header>
+        <h3>Pembelian Bouqet</h3>
+    </header>
+    <form action="proses_edit.php" method="POST">
+        <fieldset>
+            <p>
+                <input type="hidden" name="id" value="" />
+            </p>
+            <p>
+                <label for="Code">Code: </label>
+                <input type="text" name="Code" placeholder="Code" value="" />
+            </p>
+            <p>
+                <label for="Nama_Pembeli">Nama Pembeli: </label>
+                <input type="text" name="Nama_Pembeli" placeholder="Nama Pembeli" value="" />
+            </p>
+            <p>
+                <label for="Email">Email: </label>
+                <textarea name="Email"></textarea>
+            </p>
+            <p>
+                <label for="Macam_Ukuran">Macam Ukuran: </label>
+                <label><input type="radio" name="Macam_Ukuran" value="Small Bouqet"> Small Bouqet</label>
+                <label><input type="radio" name="Macam_Ukuran" value="Medium Bouqet"> Medium Bouqet</label>
+                <label><input type="radio" name="Macam_Ukuran" value="Big Bouqet"> Big Bouqet</label>
+            </p>
+            <p>
+                <label for="Produk">Produk: </label>
+                <select name="Produk">
+                    <option>buket bunga</option>
+                    <option>buket coklat</option>
+                    <option>buket uang</option>
+                    <option>buket boneka+bunga</option>
+                    <option>bisa riques</option>
+                </select>
+            </p>
+            <p>
+                <label for="Alamat">Alamat: </label>
+                <input type="text" name="Alamat" placeholder="Alamat" value="" />
+            </p>
+            <p>
+                <input type="submit" value="simpan" name="simpan" />
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

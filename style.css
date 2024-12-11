@@ -1,0 +1,141 @@
+.banner {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkFk4ybKlUI9MokQXYWFAZVRuf2ztUuRFwmSuWaJKECdkYCXwirroq8vIMuXJwVdR7tSk&usqp=CAU")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    color: #393232;
+  
+  }
+  .container h3 span:before {
+    content: '' ;
+    animation: gerak infinite 5s ease;
+    transform: translateY(-50%);
+    color: rgb(16, 17, 18);
+    font-size: 30px;
+  }
+  @keyframes gerak {	
+    0%{
+      content: '🎀  𝒮𝑒𝓁𝒶𝓂𝒶𝓉 𝒟𝒶𝓉𝒶𝓃𝑔  🎀 ';
+    }
+    50%{
+      content: '🎀  𝒟𝒾 𝑀𝓎 𝒬𝓊𝑒𝑒𝓃  🎀 ';
+    }
+    100%{
+      content: '🎀  𝒯𝑒𝓇𝒾𝓂𝒶 𝒦𝒶𝓈𝒾𝒽 𝒮𝓊𝒹𝒶𝒽 𝒮𝒾𝓃𝑔𝑔𝒶𝒽❣  🎀  ';
+    }
+  }
+  .container-fluid h4 h3 button {
+    padding: 100px;
+    margin-top: 60px;
+    top: auto;
+  }
+  
+  .lingkaran i {
+    display: inline-block;
+    padding: auto ;
+    border-radius: 50%;
+    width: 120px;
+    margin: auto;
+    height: 120px;
+    top: 10px;
+    color: #fff;
+    background-color: #b13f4a;
+    text-align: center;
+    
+    
+  }
+  
+.lingkaran i {
+    position: relative;
+    top: 8px;
+  	text-align: center;
+
+}
+.container-fluid h2{
+	padding: 40px 40px;
+	margin: 10px 10px 10px 10px;
+  text-align: center;
+	align-content: center;
+}
+.container span{
+  top: 10px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+  
+  .crop-img {
+    object-fit: cover;
+  }
+  
+  .tim img {
+    width: 160px;
+    border: 15px solid #cccccc;
+  }
+  
+  a.social {
+    display: inline-block;
+    width: 40px;
+    height: 45px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #c1b9b9;
+    line-height: 40px;
+  }
+  .client a {
+    display: inline-block;
+    width: 60px;
+    height: 55px;
+    color: #fcf7f7;
+    border-radius: 50%;
+    background-color: #030303;
+    line-height: 40px;
+  }
+  .client img {
+    height: auto;
+    max-height: 60px;
+  }
+  
+  .kontak {
+    background: url("https://i.pinimg.com/736x/22/ed/fe/22edfec0895821479db718f92633ceb6.jpg")
+      center center;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: black;
+  }
+  .mt-3{
+    padding: 2px 2px;
+    margin: 5px 5px 5px 5px;
+      text-align: center;
+    align-content: center;
+  }
+  
+  .box-kiri, .box-tengah, .box-kanan {
+    padding-top: 2px;
+    width:300px ;
+    height: 390px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 1px 1px;
+    margin: 40px 20px 20px 50px;
+    float: left;	
+  }
+  .box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+  }
+  .container h2{
+    padding: 50px 50px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    align-content: center;
+  }
+  .container-pembeli h2{
+    padding: 20px 15px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    align-content: center;
+  }

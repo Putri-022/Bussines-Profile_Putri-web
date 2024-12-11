@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pembelian di toko Bouqet</title>
+</head>
+<body>
+    <header>
+        <h3>Pembelian Di Toko Bouqet</h3>
+    </header>
+
+    <from action = "index3.html" method ="POST">
+        <fieldset>
+            <p>
+                <label for="Code">Code : </label>
+                <input type="text" name = "Code" placeholder = "Code" />
+            </p>
+            <p>
+                <label for="Nama_Pembeli">Nama Pembeli: </label>
+                <input type="text" name = "Nama_Pembeli" placeholder = "Nama Pembeli">
+            </p>
+            <p>
+                <label for="Email">Email: </label>
+                <textarea name="Email"></textarea>
+            </p>
+            <p>
+                <label for="Macam_Ukuran">Macam_ukuran : </label>
+                <label><input type="radio" name="Macam_Ukuran" value="Small Bouqet" >Small Bouqet</label>
+                <label><input type="radio" name="Macam_Ukuran" value="Medium Bouqet" >Medium Bouqet</label>
+                <label><input type="radio" name="Macam_Ukuran" value="Big Bouqet" >Big Bouqet</label>
+            </p>
+            <p>
+                <label for="Produk ">Produk</label>
+                <select name="Produk" >
+                    <option>buket bunga</option>
+                    <option>buket coklat</option>
+                    <option>buket uang</option>
+                    <option>buket boneka+bunga</option>
+                    <option>Bisa Riques</option>
+                </select>
+            </p>
+            <p>
+                 <label for="Alamat">Alamat</label>
+                 <input type="text" name = "Alamat " placeholder = "Alamat">
+            </p>
+            <p>
+                <input type="submit" value="submit" name="submit">
+                
+            </p>
+        </fieldset>
+    </from>
+</body>
+</html>
